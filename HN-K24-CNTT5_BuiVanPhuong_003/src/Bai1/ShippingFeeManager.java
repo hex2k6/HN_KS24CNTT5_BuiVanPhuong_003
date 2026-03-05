@@ -1,12 +1,3 @@
-//xây dựng chương trình phân loại vào 1 chuỗi các danh mục category
-//sử dụng Map<String, Integer> để lưu trữ
-//Key: Tên danh mục(Ví dụ:"Food", "Tech", "cloth"
-//Value số lượng sản phẩm thuộc doanh mục đó
-//chương trình cần:
-// a. cho phép người dùng nhập chuỗi các danh mục cách nhau bằng dấu phẩy
-// b. thống kê số lầm xuất hiện của từng doanh mục đó (ko phân biệt hoa thường)
-// c. cho phép người dùng nhập tên 1 danh mục để tìm nhanh
-// tên biến sẽ là tiếng anh
 package Bai1;
 
 import java.util.*;
@@ -48,4 +39,5 @@ public class ShippingFeeManager {
         System.out.println("Unique (Desc): " + uniqueFees);
         System.out.println("Express: " + expressCount);
     }
+
 }
